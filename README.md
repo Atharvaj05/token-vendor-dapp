@@ -22,6 +22,16 @@ scripts/ → Deployment scripts
 
 ## How to Run
 
-### 1. Install dependencies
+### 
+1. Install dependencies
 ```bash
 yarn install
+2. Start local blockchain
+yarn chain
+3. Deploy contracts
+yarn deploy
+4. Start frontend
+yarn start
+Status
+
+🚧 Basic version complete. Upgrading to advanced DeFi version.
