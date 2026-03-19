@@ -1,30 +1,38 @@
-# dependencies
-node_modules
+# Node dependencies
+node_modules/
 
-# env files
+# Environment files
 .env
+.env.*
 
-# coverage
-coverage
+# Coverage reports
+coverage/
 coverage.json
 
-# typechain
-typechain
-typechain-types
+# Typechain generated types
+typechain/
+typechain-types/
 
-# hardhat files
-cache
-artifacts
+# Hardhat build files
+cache/
+artifacts/
 
-# zkSync files
-artifacts-zk
-cache-zk
+# zkSync (if used)
+artifacts-zk/
+cache-zk/
 
-# deployments
-deployments/localhost
 
-# typescript
+deployments/localhost/
+
+# TypeScript build info
 *.tsbuildinfo
 
-# other
-temp
+# Temp / logs
+temp/
+*.log
+
+
+packages/frontend/build/
+
+
+!packages/hardhat/contracts/
