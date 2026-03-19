@@ -27,14 +27,14 @@ const deployVendor: DeployFunction = async function (hre: HardhatRuntimeEnvironm
    * Student TODO:
    * - Put the address you’re using in the frontend here (leave "" to default to the deployer)
    */
-  const FRONTEND_ADDRESS: string = "";
+  const FRONTEND_ADDRESS: string = "0x1b31Ef14FB140E86638933E1d9D18f54D9C57E15";
 
   /**
    * Mode switch:
    * - If true: deploy Vendor and seed it with the token balance
    * - If false: send tokens to your frontend address (or deployer if unset)
    */
-  const SEND_TOKENS_TO_VENDOR = false; // Don't switch until Checkpoint 2!
+  const SEND_TOKENS_TO_VENDOR = true; // Don't switch until Checkpoint 2!
 
   const recipientAddress = FRONTEND_ADDRESS && FRONTEND_ADDRESS.trim().length > 0 ? FRONTEND_ADDRESS : deployer;
 
