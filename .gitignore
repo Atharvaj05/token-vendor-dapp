@@ -21,3 +21,13 @@ node_modules
 
 # cli
 dist
+
+node_modules
+.env
+.env.*
+dist
+build
+.cache
+artifacts
+coverage
+typechain
